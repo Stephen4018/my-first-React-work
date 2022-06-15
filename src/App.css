@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+/* .dada {
+  font-size: 40px;
+  color: greenyellow;
+}
+.btn {
+  background-color: black;
+  color: red;
+} */
+.header {
+  background-color: #06283D;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  color: #DFF6FF;
+  align-items: center;
+}
+.header nav ul  {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  
+}
+ ul li {
+  margin: 0px 20px;
+}
+.body {
+  display: flex;
+  height: 800px;
+  justify-content: space-between;
+  
+
+}
+.body aside {
+  background-color: #DFF6FF ;
+  border: 4px solid #06283D ;
+  height: 600px ;
+  width: 400px;
+  position: relative;
+  top: 60px;
+}
+.body main {
+  width: 70%;
+  font-size: 20px;
+}
+.footer {
+  background-color: #47B5FF;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  font-size: 20px;
+  padding: 0px 20x;
+}
