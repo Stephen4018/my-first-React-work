@@ -47,34 +47,45 @@ Thank you for being part of Blockchain.com and for your continued trust.
              <div>Home</div>
              <div>Contact</div>
              <div>Places</div>
-             
+
          </div>
      )
  }
 
-// export const DivComp = () => {
-// return (
-// <div>
-//     i am a boy
-// </div>    
-// )
-// }
+ export const ParentComp = () => {
+    return (
+    <div>
+        <p>Parent component</p>
+        
+        <SendMessage name="Stephen" message="Hello"/>    
+    </div>    
+    )
+}
 
-// export const SpanComp = () => {
-// return (
-// <span>
-//     sir duff is my tutor
-// </span>    
-// )
-// }
+    
+ const SendMessage = ({name, message}) => {
+     
+    return (
+    <div>
+        <p>{name}</p>
+        <h1>{message}</h1>
+        <button>change</button>
+        <FullComp name={name} message={message}/>
+    </div>    
+    )
+}
 
-// export const FullComp = () => {
-// return (
-// <h1>
-//     this is my component
-// </h1>  
-// )
-// }
+const FullComp = ({name, message}) => {
+return (
+    <>
+<h1>
+    this is my component
+</h1>  
+<p>{name}</p>
+<h3>{message}</h3>
+</> 
+)
+}
 
 // export function WelcomeText(props) {
 //     return (
