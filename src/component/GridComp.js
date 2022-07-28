@@ -4,11 +4,14 @@ import "./grid.scss"
 const GridComp = () => {
   return (
     <div className='grid-container'>
-        <div className='gird-item'>Header</div>
-        <div className='gird-item'>Navigation</div>
-        <div className='gird-item'>Main content</div>
-        <div className='gird-item'>Aside</div>
-        <div className='gird-item'>Footer</div>
+        <header className='gird-item'>
+          <div className=''>Logo</div>
+          <nav>Navi</nav>
+        </header>
+        <nav className='gird-item'>Navigation</nav>
+        <main className='gird-item'>Main content</main>
+        <aside className='gird-item'>Aside</aside>
+        <footer className='gird-item'>Footer</footer>
        
     </div>
   )

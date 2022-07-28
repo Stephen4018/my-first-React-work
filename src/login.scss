@@ -1,0 +1,70 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+    
+    .log {
+        background-color: rgb(225,245,253);
+    height: 500px;
+    margin: auto;
+    width: 30%;
+    margin-top: 40px;
+    border-radius: 25px;
+    box-shadow: 10px  5px 10px 2px rgba(9, 9, 9, 0.23);
+    
+
+    .p {
+        padding-left: 75px;
+        font-style: italic;
+        margin-top: -20px;
+        color: #4E8DF5;
+
+        .ctn{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 700 ;
+
+            &:hover {
+                font-size: 17px;
+            }
+        }
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    form {
+        color:black;
+        font-weight: 600;
+        padding: 20px 25px;
+        // margin-top: 40px 10px 0px 50px;
+        font-size: 20px;
+
+        button {
+            width: 300px;
+            // padding-right: 30px ;
+            margin: 40px 30px;
+            height: 40px;
+            border-radius: 15px;
+            background-color: #FFC400;
+            color: beige;
+            border: none;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        
+
+        input {
+            width: 100%;
+            height: 30px;
+            border-top-left-radius: 11px;
+            border-bottom-right-radius: 11px;
+        }
+    }
+    
+  }

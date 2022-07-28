@@ -1,14 +1,15 @@
 import React from 'react'
- let url =   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf2DvkElJoKCxWDNfu3P9m6aXpdpGaATXepw&usqp=CAU';
- let url_2 = 'https://i.pinimg.com/564x/4c/3c/99/4c3c99d64bbb9d6e7775cee51ce22c33.jpg';
+ let url =   'https://m.media-amazon.com/images/G/01/2022/vans/SP22_Zappos_EVDNT_Boutique_Page_Update_500x740.jpg';
+ let url_2 = 'https://dodmzloxz80g8.cloudfront.net/r/500x/wow/uploads/attachment/68715/image/UGG-ADAPTIVE-2-042122.jpg.webp';
 
 function Home() {
   return (
     <div className='home'>
         <div>
-        <h1>Welcome <span>to</span></h1>
-        <h2>Afro-Culture</h2>
-        <p>.......show casing the beauty of black skins</p>
+        <h1>keep it Yeezy!!!</h1>
+        <h2>Feel the Vibe</h2>
+        <p>.......your preffered home for any and everything footwears</p>
+        <button>Shop With Us</button>
         </div>
         <img src={url} alt= "" />
         <img src={url_2} alt = '' className='url_2' />
